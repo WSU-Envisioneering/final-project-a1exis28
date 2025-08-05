@@ -1,8 +1,7 @@
-/* Your styles go here */
 *{
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    margin: .6;
+    padding: .5;
 }
 
 nav{
@@ -10,8 +9,8 @@ nav{
 }
 
 nav > a{
-    text-decoration: none;
-    color: black;
+    text-decoration: wavy underline;
+    color: antiquewhite;
     font-size: 1.2rem;
 }
 
@@ -24,9 +23,8 @@ nav > a{
 }
 
 .mainNav a{
-    text-decoration: none;
+    text-decoration: wavy underline;
     font-size: 1.2rem;
-    color: black;
 }
 
 footer{
@@ -50,7 +48,7 @@ footer{
     }
     
     nav > a{
-        text-decoration: none;
+        text-decoration: wavy underline;
         color: black;
         font-size: 1.2rem;
         padding-left: 2rem;
@@ -59,7 +57,7 @@ footer{
     .mainNav{
         grid-column: 3 / span 1;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         list-style: none;
         margin-right: 1rem;
     }
