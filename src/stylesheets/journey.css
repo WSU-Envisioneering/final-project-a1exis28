@@ -1,1 +1,19 @@
-
+nav a{
+    color:rgb(110, 102, 155);
+    text-shadow: 2px 2px 2px black; 
+}
+body{
+    background-color: rgb(92, 70, 99);
+}
+h1{
+    color: rgb(54, 35, 66);
+}
+p{
+    font-size: large;
+}
+footer a{
+    color: rgb(153, 103, 153);
+}
+a:hover{
+    color: rgb(44, 17, 44);
+}

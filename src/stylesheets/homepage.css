@@ -63,3 +63,6 @@ nav a, nav ul li a{
 a{
     color:rgb(133, 94, 58);
 }
+a:hover{
+    color: rgb(241, 192, 163);
+}
