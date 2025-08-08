@@ -9,16 +9,16 @@ h1{
     color: rgb(85, 131, 190);
 }
 a:hover{
-    color:rgb(13, 42, 70);
+    color:rgb(0, 0, 0);
 }
 td{
     padding: 10px;
-    border: 3px solid rgb(255, 255, 255);
+    border: 3px double rgb(255, 255, 255);
     color: rgb(18, 40, 70);
 }
 th{
     padding: 10px;
-    border: 3px solid white;
+    border: 3px double white;
 }
 a{
     color: rgb(41, 85, 151);
