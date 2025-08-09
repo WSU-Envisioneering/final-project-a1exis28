@@ -17,3 +17,29 @@ footer a{
 a:hover{
     color: rgb(44, 17, 44);
 }
+
+.courseTalk{
+    background-color: rgb(110, 82, 116);
+    padding: 10px;
+    grid-area: p1;
+    border-radius: 5px;
+    box-shadow: 0 5px 7px rgba(0, 0, 0, 0.2);
+}
+
+.codeTalk{
+    background-color: rgb(110, 82, 116);
+    padding: 10px;
+    grid-area: p2;
+    border-radius: 5px;
+    box-shadow: 0 5px 7px rgba(0, 0, 0, 0.2);
+}
+
+@media all and (min-width: 900px){
+    main{
+        display: grid;
+        gap: 10px;
+        grid-template-areas:
+            "p1 p2"
+            "p1 p2";
+    }
+}

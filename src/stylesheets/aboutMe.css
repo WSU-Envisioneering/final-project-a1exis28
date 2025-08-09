@@ -65,3 +65,44 @@ img{
     justify-content: end;
     
 }
+.aboutMe{
+    font-size: 20px;
+    background-color: rgb(77, 44, 44);
+    grid-area: about;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.alexisRunning{
+    grid-area: alexis;
+    margin: 10px;
+}
+.formHeader{
+    grid-area: formH;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.contact-form{
+    background-color: rgb(77, 44, 44);
+    grid-area: contact;
+    padding: 14px;
+    border-radius: 10px;
+}
+
+
+@media all and (min-width: 900px){
+    main{
+        display:grid;
+        gap: 15px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+            "about alexis"
+            "about alexis"
+            "formH formH"
+            "contact contact";
+    }
+    .contact-form{
+        width: 58%;
+    }
+}

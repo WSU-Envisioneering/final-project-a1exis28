@@ -6,7 +6,7 @@ body{
     background-color: rgb(147, 184, 209);
 }
 h1{
-    color: rgb(85, 131, 190);
+    color: rgb(50, 84, 129);
 }
 a:hover{
     color:rgb(0, 0, 0);
@@ -22,4 +22,31 @@ th{
 }
 a{
     color: rgb(41, 85, 151);
+}
+
+.travelList{
+    background-color: rgb(173, 201, 224);
+    padding: 10px;
+    grid-area: travel;
+    border-radius: 5px;
+    box-shadow: 0 5px 7px rgba(12, 0, 27, 0.2);
+}
+
+.foodRatings{
+    background-color: rgb(173, 201, 224);
+    padding: 10px;
+    grid-area: food;
+    border-radius: 5px;
+    box-shadow: 0 5px 7px rgba(12, 0, 27, 0.2);
+}
+
+
+@media all and (min-width: 900px){
+    main{
+        display: grid;
+        gap: 10px;
+        grid-template-areas:
+            "travel food"
+            "travel food";
+    }
 }
